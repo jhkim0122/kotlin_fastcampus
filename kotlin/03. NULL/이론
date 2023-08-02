@@ -1,0 +1,13 @@
+NULL
+ - 상태를 모름, 존재하지 않음
+ - 0과는 다르다.
+ - Null을 대상으로는 연산할 수 없다.
+
+NullSafety
+ - Kotlin의 가장 큰 특징 중 하나
+
+Null 표현법
+val 변수명 : 자료형 = null
+val 변수명 : 자료형? = 값
+    - val number : Int? = null -> null 가능 (nullable)
+    - val number : Int = 10 -> null 불가능

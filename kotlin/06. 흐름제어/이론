@@ -1,0 +1,8 @@
+// if
+
+* when
+when (조건){
+    case1 -> 동작1
+    case2 -> 동작2
+    else -> 동작3
+}
